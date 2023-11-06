@@ -1,0 +1,14 @@
+name: pytorch-gpu
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.8
+  - cudatoolkit=11.1
+  - pytorch=1.10.2
+  - numpy
+  - scikit-learn
+  - scipy
+  - pip
+  - pip:
+      - cupy-cuda111
