@@ -344,8 +344,8 @@ class KernelRatioAlpha(KernelRatio):
         self.N1_, self.D_ = X1.shape
         self.N2_, _ = X2.shape
         # self._separate_class(X, y)
-        self.a1_ = a1
-        self.a2_ = a2
+        self.a1_ = xp.asarray(a1)
+        self.a2_ = xp.asarray(a2)
         self.X1_ = xp.asarray(X1)
         self.X2_ = xp.asarray(X2)
 
