@@ -1,4 +1,4 @@
-name: pytorch-gpu
+name: VWKDE
 channels:
   - pytorch
   - nvidia
